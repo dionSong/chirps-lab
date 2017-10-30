@@ -1,0 +1,9 @@
+<form (submit)="sendChirp(chirpContent.value)"class="container" name="form">
+  <input #chirpContent  type="text">
+  <button type="submit" (click) = "sendChirp(chirpContent.value)">SEND</button>
+</form>
+
+<!-- 
+get the value in the input and create a new shirp that needs to be pushed into the array with the user validation info. -->
+
+
